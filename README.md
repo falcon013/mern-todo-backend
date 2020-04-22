@@ -16,6 +16,13 @@ _This guide will provide steps how to run MongoDb using Docker_
 npm install
 ```
 
+- Export environment variables for user and password connecting to MongoDb
+
+```
+export MONGO_USER_NAME="root"
+export MONGO_USER_PASS="example"
+```
+
 - Run MongoDb
 
 ```
